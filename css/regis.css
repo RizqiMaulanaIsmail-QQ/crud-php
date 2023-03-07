@@ -1,0 +1,95 @@
+.body{
+	font-family: sans-serif;
+	background: #ECF4F6;
+}
+.h1{
+	text-align: center;
+	/*ketebalan font*/
+	font: bolt;
+}
+.p{
+	text-align: center;
+	text-transform: uppercase;
+}
+.kotak_register{
+	width: 350px;
+	background: #8DC6C7;
+	/*meletakkan form ke tengah*/
+	margin: 35px auto;
+	padding: 35px 25px;
+}
+.form{
+  height: 520px;
+  width: 400px;
+  background-color: #BACED9;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter:inherit;
+  border: 2px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 20px rgba(8,7,16,0.6);
+  padding: 50px 35px;
+}
+.label{
+  display: block;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+}
+.input{
+  display: block;
+  height: 15px;
+  width: 350px;
+  background-color: #F2F2F0;
+  border-radius: 5px;
+  border:none ;
+  padding: 5px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #4D9FC4;
+	background: #f2f2f0;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+.button:hover{
+	background: #30395C;
+}
+
+::placeholder{
+  color: #e5e5e5;
+}
+.ul{
+  padding: 0px;
+}
+.back{
+  width: 30%;
+  padding: 5px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.back:hover{
+	background: #30395C;
+}
